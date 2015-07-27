@@ -1,6 +1,22 @@
 rocket2_scheme
 ====
 
+types
+----
+* __signed/unsigned int (4b)__
+* __signed/unsigned int64 (8b)__
+* __bool (1b)__
+* __string (null-terminated, variable length)__
+* __string (null-terminated, fixed length)__
+* __float (4b)__
+* __double (8b)__
+* __list<>__
+* __map<,>__
+
+byte-order
+----
+* dont-care (system default)
+
 packet
 ----
 ```cpp
