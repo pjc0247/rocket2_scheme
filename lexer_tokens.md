@@ -1,0 +1,10 @@
+* space
+* endl
+* ident
+* begin_packet
+* begin_model
+* begin_enum
+* end
+* semicolon
+* left_angle_bracket
+* right_angle_bracket
