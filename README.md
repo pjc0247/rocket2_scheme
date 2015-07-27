@@ -3,19 +3,20 @@ rocket2_scheme
 
 types
 ----
-* __signed/unsigned int (4b)__
-* __signed/unsigned int64 (8b)__
-* __bool (1b)__
-* __string (null-terminated, variable length)__
-* __string (null-terminated, fixed length)__
-* __float (4b)__
-* __double (8b)__
+* __signed/unsigned int__ (4b)
+* __signed/unsigned int64__ (8b
+* __bool__ (1b)
+* __string__ (null-terminated, variable length)
+* __string__ (null-terminated, fixed length)
+* __float__ (4b)
+* __double__ (8b)
 * __list<>__
 * __map<,>__
 
 byte-order
 ----
 * dont-care (system default)
+  * 일단 구현 먼저
 
 packet
 ----
