@@ -16,7 +16,7 @@ types
 byte-order
 ----
 * dont-care (system default)
-  * 일단 구현 먼저
+  * 동종 시스템간에 사용을 가정, 일단 구현 먼저
 
 packet
 ----
