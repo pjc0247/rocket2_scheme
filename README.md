@@ -46,3 +46,8 @@ packet user_data_respone
   # int level;
 end
 ```
+
+cli-options
+----
+* __align-size__
+* __crc__
