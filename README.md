@@ -11,6 +11,16 @@ packet dummy_1
 end
 ```
 
+enum
+----
+```cpp
+enum fruits
+  banana,
+  apple,
+  pineapple
+end
+```
+
 data-model
 ----
 ```cpp
