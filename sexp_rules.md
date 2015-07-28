@@ -4,16 +4,18 @@ packet
 .begin_packet
   .space
   .ident.capture(:name)
-  .begin_repeat
-    .mixin.optional.capture(:mixin)
+  .repeat
+    .mixin?.capture(:mixin).push
       .space
       .ident.push
       .semicolon
-    .typename.optional.capture(:field)
+      .pop
+    .typename?.capture(:field).push
       .space
       .ident.push
       .semicolon
-  .end_repeat
+      .pop
+  .pop
   .end
 ```
 ```
