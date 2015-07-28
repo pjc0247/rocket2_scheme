@@ -7,12 +7,12 @@ packet
   .repeat
     .mixin?.capture(:mixin).push
       .space
-      .ident.push
+      .ident.capture
       .semicolon
       .pop
     .typename?.capture(:field).push
       .space
-      .ident.push
+      .ident.capture
       .semicolon
       .pop
   .pop
