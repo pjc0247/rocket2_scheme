@@ -4,6 +4,7 @@ packet
 .begin_packet
   .space
   .ident.capture(:name)
+  .begin_repeat
     .mixin.optional.capture(:mixin)
       .space
       .ident.push
@@ -12,7 +13,7 @@ packet
       .space
       .ident.push
       .semicolon
-  .repeat
+  .end_repeat
   .end
 ```
 ```
